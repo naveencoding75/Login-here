@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Knu Login Page</title>
+            <link rel="stylesheet" href="input-website.css">
+        </head>
+        <body>
+            <div class="header">
+                <div class="heading">TCS iON Self Service</div>
+                <img class="tata" src="tata.png">
+            </div>
+
+
+            <div class="body-part">
+                <div class="left">
+                    <img src="Kazi_Nazrul_University_Logo.png">
+                </div>
+
+                <div class="right">
+                    <div class="welcome">Welcome</div>
+                    <div class="text">
+                        <div class="user-input">
+                            <input class="search-place userName" type="text" placeholder="User Name">
+                            <a class="forgot-text uForgot">Forgot Username?</a>
+                        </div>
+                        <div class="user-input">
+                            <input class="search-place passWord" type="password" placeholder="Password" id="pwd" name="pwd">
+                            <a class="forgot-text pForgot">Forgot Password?</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                            <input type="checkbox" class="checkbox" name="remember-me" value="sign">
+                            <label for="remember-me"> Keep Me Signed In</label>
+                            <div class="help">i</div>
+                    </div>
+
+                    <div>
+                            <button onclick="
+                                loginCheck();
+                            ">Login</button>
+                            OR
+                            <a href="signUp.html">
+                                <button>Sign Up</button>
+                            </a>
+                    </div>
+                </div>
+            </div>
+            <script src="signUp.js"></script>
+            <script src="input-website.js"></script>
+        </body>
+    </html>
